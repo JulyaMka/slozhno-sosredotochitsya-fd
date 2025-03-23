@@ -12,6 +12,7 @@
   --section-title-color: #ff0070;
   --title-color: #000028; /*точно оставить*/
   --font-family: "IBM Plex mono", serif;
+  --background-image: url("../images/cover-image-dark.png");
   --font-size: 18px;
   --font-weight: bold;
   --gap: 10px;

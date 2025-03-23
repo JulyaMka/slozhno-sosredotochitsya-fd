@@ -17,11 +17,11 @@
   --caption-color: #db00ff; /*оставить*/
   --section-title-color: #ff0070;
   --title-color: #000028; /*точно оставить*/ /*точно оставить*/
+  --background-image: url("../images/cover-image-dark.png");
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-    background-image: url("../images/cover-image-dark.png")
 }
 
 .theme-dark .rec {

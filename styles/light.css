@@ -17,6 +17,7 @@
   --heading-button-and-angle: #353430;
   --heading-button-and-angle-rgba: rgba(53, 52, 48, 0.4);
   --section-title-color: #353430;
+  --background-image: url("../images/cover-image-light.png");
 }
 
 .theme-light .page {
