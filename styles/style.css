@@ -8,19 +8,19 @@
   background-color: var(--background-color);
 }
 
-a {
-  border: 1px solid transparent;
+a{
   text-decoration: none;
   text-shadow: 2px 2px var(--accent-color);
+  border: 1px solid transparent;
 }
 
-a:hover {
+a:hover{
   border-block-end: 2px solid var(--text-color);
 }
 
-a:focus-visible {
-  border: 1px solid var(--text-color);
+a:focus-visible{
   outline: none;
+  border: 1px solid var(--text-color);
 }
 
 .header {
@@ -34,7 +34,8 @@ a:focus-visible {
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed; /*чтобы фон оставался на месте*/
-  block-size: 100vh; /*потому что для мобильной первое*/
+  block-size: 100vh; /*потому что для мобильной первое*/ 
+  max-block-size: 1024px;;
 }
 
 .rec {
@@ -45,7 +46,7 @@ a:focus-visible {
   font-family: var(--font-family);
   font-size: var(--font-size);
   inset-block-start: 10px;
-  inset-inline-end: 20px;
+  inset-inline-end: 20px; 
 }
 
 .rec::after {
@@ -206,6 +207,7 @@ a:focus-visible {
   height: 100vh;
   margin-block-start: 30px;
   padding: 10px;
+  max-block-size: 1024px;
 }
 
 .footer__caption {
