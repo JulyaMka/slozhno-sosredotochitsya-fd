@@ -20,7 +20,7 @@
 }
 
 .theme-light .page {
-    background-image: url("../images/cover-image-light.png");
+  background-image: url("../images/cover-image-light.png");
 }
 
 .theme-light .rec {
@@ -39,12 +39,10 @@
     --section-title-color: #353430;
   }
   .page {
-    .rec {
-      display: none;
-    }
-    .header {
-      background-image: url("../images/cover-image-light.png");
-    }
+    background-image: url("../images/cover-image-light.png");
   }
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  .rec {
+    display: none;
+  }
 }
+/* Вам также нужно будет написать ряд подобных селекторов */
