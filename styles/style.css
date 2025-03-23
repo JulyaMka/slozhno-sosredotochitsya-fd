@@ -6,6 +6,11 @@
   justify-content: center;
   align-content: center;
   background-color: var(--background-color);
+  background-image: url("../images/cover-image-dark.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed; /*чтобы фон оставался на месте*/
 }
 
 a {
@@ -29,11 +34,7 @@ a:focus-visible {
   justify-items: end;
   align-items: center;
   padding: 10px;
-  background-image: url("../images/cover-image-dark.png");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  background-attachment: fixed; /*чтобы фон оставался на месте*/
+  
   block-size: 100vh; /*потому что для мобильной первое*/
   max-block-size: 1024px;
 }
