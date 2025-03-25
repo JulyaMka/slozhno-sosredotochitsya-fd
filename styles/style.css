@@ -34,7 +34,7 @@ a:focus-visible {
   justify-items: end;
   align-items: center;
   padding: 10px;
-  
+
   block-size: 100vh; /*потому что для мобильной первое*/
   max-block-size: 1024px;
 }
