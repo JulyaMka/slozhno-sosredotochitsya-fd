@@ -3,14 +3,14 @@
   и их переопределение под различные устройства
 */
 :root {
-  --accent-color: #ff0070; /*точно оставить*/
-  --background-color: #000028; /*точно оставить*/
-  --text-color: #f1b2ce; /*точно оставить*/
+  --accent-color: #ff0070; 
+  --background-color: #000028; 
+  --text-color: #f1b2ce; 
   --heading-button-and-angle: #ff0070;
   --heading-button-and-angle-rgba: rgba(255, 0, 112, 0.4);
   --caption-color: #db00ff; /*оставить*/
   --section-title-color: #ff0070;
-  --title-color: #000028; /*точно оставить*/
+  --title-color: #000028; 
   --font-family: "IBM Plex mono", serif;
   --background-image: url("../images/cover-image-dark.png");
   --font-size: 18px;

@@ -148,22 +148,22 @@ a:focus-visible {
   background-color: var(--accent-color);
 }
 
-.main__section-items {
+.content__section-items {
   display: grid;
   gap: calc(var(--gap) * 2);
 }
 
-.main__section-item .main__section-text {
+.content__section-item .content__section-text {
   margin-block-start: 10px;
 }
 
-.main {
+.content {
   display: grid;
   gap: calc(var(--gap) * 5);
   padding: 40px 10px 10px;
 }
 
-.main__section-title {
+.content__section-title {
   color: var(--section-title-color);
   font-family: var(--font-family);
   font-weight: var(--font-weight);
@@ -171,7 +171,7 @@ a:focus-visible {
   line-height: 23.4px;
 }
 
-.main__section {
+.content__section {
   display: grid;
   gap: calc(var(--gap) * 2);
 }
@@ -180,7 +180,7 @@ a:focus-visible {
   gap: var(--gap);
 }
 
-.main__section-text {
+.content__section-text {
   color: var(--text-color);
   font-family: var(--font-family);
   font-size: var(--font-size);
@@ -191,13 +191,13 @@ a:focus-visible {
   --font-weight: regular;
 }
 
-.main__section-gallery {
+.content__section-gallery {
   /*для отступа между картинками*/
   display: grid;
   gap: var(--gap);
 }
 
-.main__section-image {
+.content__section-image {
   object-fit: cover;
   object-position: center;
   inline-size: 100%;
@@ -240,29 +240,29 @@ a:focus-visible {
     justify-self: end;
     inline-size: 364px;
   }
-  .main {
+  .content {
     gap: calc(var(--gap) * 8);
     margin-block-start: 60px;
     padding: 0 20px;
   }
-  .main__section {
+  .content__section {
     grid-template-columns: 1fr 2fr;
     gap: calc(var(--gap) * 2);
   }
-  .what .main__section-title {
+  .what .content__section-title {
     grid-column: 1 / 2;
   }
-  .what .main__section-items {
+  .what .content__section-items {
     grid-column: 1 / -1;
   }
-  .how .main__section-items {
+  .how .content__section-items {
     grid-column: 2 / -1;
   }
 
   .picture .title-decor {
     grid-column: 1 / -1;
   }
-  .main__section-gallery {
+  .content__section-gallery {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, min-content);
     grid-column: 1/-1;
@@ -314,7 +314,7 @@ a:focus-visible {
 }
 
 @media (width>=1024px) {
-  .what .main__section-items {
+  .what .content__section-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: calc(var(--gap) * 2);
