@@ -100,7 +100,6 @@ a:focus-visible {
 }
 
 .header__theme-menu-button {
-  appearance: none;
   border: 1px solid transparent;
   padding: 0.5px 13px;
   color: var(--heading-button-and-angle);
@@ -108,6 +107,7 @@ a:focus-visible {
   font-size: var(--font-size);
   text-transform: lowercase;
   background-color: transparent;
+  appearance: none;
 }
 
 .header__theme-menu-button_active {
@@ -250,7 +250,7 @@ a:focus-visible {
     grid-template-columns: 1fr 2fr;
     gap: calc(var(--gap) * 2);
   }
-  
+
   .what .content__section-title {
     grid-column: 1 / 2;
   }
@@ -342,11 +342,10 @@ a:focus-visible {
     grid-auto-flow: column;
     justify-self: center;
   }
-  section.why.content__section{
+  section.why.content__section {
     gap: calc(var(--gap) * 1.2);
   }
-  section.how.content__section{
+  section.how.content__section {
     gap: calc(var(--gap) * 1.2);
   }
-
 }
